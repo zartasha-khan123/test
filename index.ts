@@ -10,7 +10,7 @@ import inquirer from "inquirer";
 
 const randomNumber= Math.floor(Math.random() * 6 + 1 );
 
-//const message="This is number guessing game: ";
+const message="This is number guessing game: ";
 
 const answers= await inquirer.prompt([
     {
